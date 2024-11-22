@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite playlist is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="assets/images/Spotify-Icon-Logo.wine.svg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>LANA DEL REY - playlist</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="assets/images/mountaindelrey.jpg" alt="1">
+                    <span>Deit Mountain Dew</span>
+                    <span class="songlistplay"><span class="timestamp">03:43 <i class="far fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./assets/images/young&beautiful.webp" alt="1">
+                    <span>Young & beautiful</span>
+                    <span class="songlistplay"><span class="timestamp">03:56 <i class="far fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/images/shades-of-cool.webp" alt="1">
+                    <span>Summertime Sadness</span>
+                    <span class="songlistplay"><span class="timestamp">04:24 <i class="far fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/images/Westcoast.webp" alt="1">
+                    <span>Dark Paradise</span>
+                    <span class="songlistplay"><span class="timestamp">04:03 <i class="far fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="assets/images/DarkParadise.jpg" alt="1">
+                    <span>West coast</span>
+                    <span class="songlistplay"><span class="timestamp">03:22 <i class="far fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+        </div>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" max="100">
+            <div class="icons">
+                <i class="fas fa-step-backward"></i>
+                <i class="far fa-play-circle" id="masterPlay"></i> 
+                <i class="fas fa-step-forward"></i>
+            </div>
+            <div class="songInfo">
+                <img class="img" src="assets/images/giphy.webp" width="42px" alt="" id="gif">Deit Mountain Dew
+            </div> 
+        </div>
+        <script src="https://kit.fontawesome.com/1239bd0fea.js" crossorigin="anonymous"></script>
+    <script src="spotify.js"></script>
+</body>
+</html>
